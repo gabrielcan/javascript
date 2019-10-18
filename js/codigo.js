@@ -29,8 +29,11 @@ function operaciones() {
        
     
     var check=document.getElementById('selection').value;
-    console.log(check);
+    
 
+    check=parseInt(check);
+    console.log(check);
+    
 switch (check) {
     case 1:
             suma();
@@ -53,16 +56,16 @@ switch (check) {
 
 
             function suma(p1,p2) {
-                p1= document.getElementById('valor1').value
-                p2=document.getElementById('valor2').value
+                p1= document.getElementById('valor1').value;
+                p2=document.getElementById('valor2').value;
                     
                 var resultadoMult=parseInt(p1+p2);
                 // console.log(resultadoMult); 
                                 }
 
             function resta(p1,p2) {
-                p1= document.getElementById('valor1').value
-            p2=document.getElementById('valor2').value
+                p1= document.getElementById('valor1').value;
+            p2=document.getElementById('valor2').value;
             
             var resultadoMult=parseInt(p1-p2);
             // console.log(resultadoMult); 
@@ -70,16 +73,16 @@ switch (check) {
             }
         
             function div(p1,p2) {
-                p1= document.getElementById('valor1').value
-            p2=document.getElementById('valor2').value
+                p1= document.getElementById('valor1').value;
+            p2=document.getElementById('valor2').value;
             
             var resultadoMult=p1/p2;
             // console.log(resultadoMult); 
                                 }
             function mult(p1,p2){
 
-            p1= document.getElementById('valor1').value
-            p2=document.getElementById('valor2').value
+            p1= document.getElementById('valor1').value;
+            p2=document.getElementById('valor2').value;
                 
             var resultadoMult=p1*p2;
             // console.log(resultadoMult);
