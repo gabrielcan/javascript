@@ -52,4 +52,4 @@ const peticionURL =  async url => {
  }
  peticionURL('https://jsonplaceholder.typicode.com/todos');
  peticionURL('https://jsonplaceholder.typicode.com/todos/1');
- 
+ /// ejemplo de clase 
